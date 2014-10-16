@@ -1,0 +1,121 @@
+
+body {
+    background: url("../images/background.jpg") repeat-x scroll 0 60px #FFFFFF;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.logo, .frame .btn1 a, .frame .left .yun, .frame .right .div2, input.user, input.pwd, input.submit, .reg a {
+    background: url("../images/login-all.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.logo {
+    background-position: -730px 0;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 185px;
+}
+.frame {
+    height: 463px;
+    margin: 0 auto;
+    width: 974px;
+}
+.frame .left {
+    float: left;
+    height: 463px;
+    width: 658px;
+}
+.frame .left .div1 {
+    height: 463px;
+    position: relative;
+    width: 658px;
+}
+.frame .right {
+    float: left;
+    height: 463px;
+    width: 316px;
+}
+.frame .btn1 a {
+    background-position: -1008px -72px;
+    display: inline-block;
+    height: 12px;
+    overflow: hidden;
+    width: 12px;
+}
+.frame .btn1 a:hover {
+    background-position: -1034px -72px;
+}
+.frame .btn1 a.the {
+    background-position: -1034px -72px;
+}
+.frame .btn1 {
+    padding-left: 456px;
+}
+.frame .left .yun {
+    background-position: -477px -468px;
+    height: 51px;
+    position: absolute;
+    right: 0;
+    top: 366px;
+    width: 601px;
+}
+.frame .right .div2 {
+    background-position: -113px -145px;
+    height: 432px;
+    margin-top: 16px;
+    width: 316px;
+}
+input.user, input.pwd {
+	font-family:"微软雅黑";
+    background-color: #FFFFFF;
+    background-position: -1480px -490px;
+    border: 1px solid #E7E7E7;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 26px;
+    width: 98%;
+}
+input.user:hover, input.pwd:hover {
+    border-color: #0F6AAE;
+}
+input.user:focus, input.pwd:focus {
+    border-color: #FF9900;
+}
+input.submit {
+    background-position: -1155px -444px;
+    border: medium none;
+    cursor: pointer;
+    height: 41px;
+    width: 276px;
+}
+input.submit:hover {
+    background-position: -1155px -494px;
+}
+input.pwd {
+    background-position: -1480px -440px;
+    margin-top: 5px;
+}
+.frame .right .title {
+    color: #2486C4;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0 20px 10px;
+}
+.frame .right .div2 a.a1 {
+    color: #1B66C7;
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+}
+.reg {
+    padding-top: 10px;
+    text-align: center;
+}
+.reg a {
+    background-position: -107px -63px;
+    display: inline-block;
+    height: 40px;
+    width: 175px;
+}

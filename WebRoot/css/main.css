@@ -1,0 +1,22 @@
+body,div,ul,li,a {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.sub_menu li {
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+.top_logo {
+	background: url(../images/login-all.gif) no-repeat scroll 0 0
+		rgba(0, 0, 0, 0);
+	background-position: -730px 0;
+	height: 55px;
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 185px;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<!-- 设置上传文件的最大容量 -->
+	<constant name="struts.multipart.maxSize" value="999999999999"></constant>
+
+	<!-- name名任意，namespace是action的访问路径名,extends="json-default"表示支持json格式的数据 -->
+	<package name="root" namespace="/" extends="json-default">
+		<!-- 全局结果视图进行配置 -->
+		<global-results>
+			<!-- 错误页面的配置 -->
+			<result name="error">/error.jsp</result>
+			<!-- json格式数据的配置 -->
+			<result name="json" type="json"></result>
+		</global-results>
+
+		<!-- 用户登录的action配置 -->
+		<action name="login" class="com.icss.action.LoginAction"></action>
+		<!-- 用户注册 -->
+		<action name="register" class="com.icss.action.RegisterAction"></action>
+		<!-- 查看所有用户类型 -->
+		<action name="findAllUserType" class="com.icss.action.FindAllUserTypeAction"></action>
+		<!-- 分页查看所有用户信息 -->
+		<action name="findAllUser" class="com.icss.action.FindAllUserInfoAction"></action>
+
+		<!-- 查看所有资源类型 -->
+		<action name="findResType" class="com.icss.action.FindAllResTypeAction"></action>
+		<!-- 查看所有资源等级类型 -->
+		<action name="findAccessRight" class="com.icss.action.FindAllAccessRightAction"></action>
+		<!-- 文件上传 -->
+		<action name="upload" class="com.icss.action.UploadAction"></action>
+		<!-- 查看所有资源 -->
+		<action name="findAllResource" class="com.icss.action.FindAllResourceAction"></action>
+		<!-- 查看所有图片资源 -->
+		<action name="findAllImage" class="com.icss.action.FindAllImageAction"></action>
+		<!-- 查看所有音乐资源 -->
+		<action name="findAllMusic" class="com.icss.action.FindAllMusicAction"></action>
+	</package>
+
+</struts>    
